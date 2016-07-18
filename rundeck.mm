@@ -1,0 +1,96 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1468659855664" ID="ID_442386204" MODIFIED="1468659860457" TEXT="Rundeck">
+<node CREATED="1468659862437" ID="ID_823983334" MODIFIED="1468659870617" POSITION="right" TEXT="What">
+<node CREATED="1468659882031" ID="ID_778513678" MODIFIED="1468661270220" TEXT="Job Scheduler">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://rundeck.org/2.6.8/index.html
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1468660055487" ID="ID_196552082" MODIFIED="1468660060305" TEXT="Batch Job">
+<node CREATED="1468660122821" ID="ID_113956756" MODIFIED="1468660125878" TEXT="Quartz"/>
+</node>
+<node CREATED="1468660160621" ID="ID_859008840" MODIFIED="1468661069243" TEXT="Jobs">
+<node CREATED="1468660192266" ID="ID_1422999267" MODIFIED="1468660195595" TEXT="Job Group">
+<node CREATED="1468660284253" ID="ID_1093666736" MODIFIED="1468660311326" TEXT="Categorized by env"/>
+</node>
+<node CREATED="1468660195786" ID="ID_1292896951" MODIFIED="1468660198867" TEXT="Job UUID">
+<node CREATED="1468660199866" ID="ID_616286192" MODIFIED="1468660260512" TEXT="Uniqueness"/>
+</node>
+<node CREATED="1468660738797" ID="ID_1142320785" MODIFIED="1468661240773" TEXT="Scheduled">
+<icon BUILTIN="bookmark"/>
+</node>
+<node CREATED="1468660742500" ID="ID_391954509" MODIFIED="1468660744692" TEXT="Notification"/>
+<node CREATED="1468660753681" ID="ID_1983955343" MODIFIED="1468660756739" TEXT="Webhooks"/>
+<node CREATED="1468660903612" ID="ID_103400330" MODIFIED="1468660905749" TEXT="Workflows">
+<node CREATED="1468660916585" ID="ID_904049152" MODIFIED="1468660988658" TEXT="Node-based">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      note: Ideally a DAG-optimized algorithm could be applied if it exists
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1468661070079" ID="ID_198430903" MODIFIED="1468661071118" TEXT="Nodes">
+<node CREATED="1468661168830" ID="ID_1095734503" MODIFIED="1468661170682" TEXT="Filter"/>
+</node>
+<node CREATED="1468661071327" ID="ID_542695616" MODIFIED="1468661072686" TEXT="Commands"/>
+<node CREATED="1468661096861" ID="ID_1111851747" MODIFIED="1468661098965" TEXT="Executions"/>
+<node CREATED="1468661131027" ID="ID_431577643" MODIFIED="1468661134739" TEXT="Activity">
+<node CREATED="1468661144931" ID="ID_821006336" MODIFIED="1468661147283" TEXT="Filtering"/>
+</node>
+</node>
+<node CREATED="1468660044480" ID="ID_1333155506" MODIFIED="1468660049369" TEXT="Runbook automation"/>
+<node CREATED="1468660136804" ID="ID_842144117" MODIFIED="1468660144197" TEXT="a Java-World product">
+<node CREATED="1468660695390" ID="ID_920817072" MODIFIED="1468660710333" TEXT="Maturity from ecosystem"/>
+</node>
+</node>
+<node CREATED="1468659871024" ID="ID_816357337" MODIFIED="1468659872521" POSITION="right" TEXT="Why">
+<node CREATED="1468659914988" ID="ID_552131191" MODIFIED="1468659920119" TEXT="Ansible Tower">
+<node CREATED="1468659920934" ID="ID_1141450654" MODIFIED="1468659924982" TEXT="Expensive"/>
+<node CREATED="1468659930822" ID="ID_577359730" MODIFIED="1468659945710" TEXT="Unmanaged"/>
+</node>
+<node CREATED="1468659960467" ID="ID_235655970" MODIFIED="1468659967565" TEXT="Open Source">
+<node CREATED="1468660631824" ID="ID_1052014380" MODIFIED="1468660842448" TEXT="Transparent job definition (Exportable)">
+<node CREATED="1468660848436" ID="ID_1565465530" MODIFIED="1468660853231" TEXT="Persistence"/>
+<node CREATED="1468660853463" ID="ID_447086504" MODIFIED="1468660855263" TEXT="Management"/>
+</node>
+</node>
+<node CREATED="1468660086247" ID="ID_214201854" MODIFIED="1468660097087" TEXT="Cooperability">
+<node CREATED="1468660100622" ID="ID_1159162863" MODIFIED="1468660104871" TEXT="Ansible playbooks"/>
+</node>
+</node>
+<node CREATED="1468659873049" ID="ID_994837080" MODIFIED="1468659874233" POSITION="right" TEXT="How">
+<node CREATED="1468661315537" ID="ID_773726512" MODIFIED="1468661356068" TEXT="Example: booking batch jobs">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://rundeck.dandythrust.com/project/Ansible/job/show/87c4e381-90aa-4340-9d80-9ed51996d9c3
+    </p>
+    <p>
+      https://rundeck.dandythrust.com/project/Ansible/job/show/0723e1bb-1a30-487c-8bcb-b1212a3cb69e
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</map>
