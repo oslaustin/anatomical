@@ -1,18 +1,110 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/white.css">
+        <link rel="stylesheet" href="css/theme/league.css">
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
-                <section>Slide 1</section>
-                <section>Slide 2</section>
+                <!-- Intro -->
+                <section data-markdown>
+                  <script type="text/template">
+                    # Rundeck
+                    Job Scheduler and Runbook Automation
+                  </script>
+                </section>
+
+                <!-- Anatomy -->
+                <section data-markdown>
+                  <script type="text/template">
+                    ## Anatomy
+                    - [What](#/2) <!-- .element: class="fragment" -->
+                    - [Why](#/3)  <!-- .element: class="fragment" -->
+                    - [How](#/4)  <!-- .element: class="fragment" -->
+                  </script>
+                </section>
+
+                <section>
+                  <!-- What -->
+                  <section data-markdown>
+                    <script type="text/template">
+                      ## What
+                      - Job Scheduler       <!-- .element: class="fragment fade-left" -->
+                      - Runbook automation  <!-- .element: class="fragment fade-right" -->
+                      - a Java-World product (Maturity from ecosystem) <!-- .element: class="fragment fade-up" -->
+                    </script>
+                  </section>
+                  <!-- What: Job Scheduler -->
+                  <section>
+                    <h2>Job Scheduler</h2>
+                    <p><ul><li class="fragment" data-fragment-index="1">Batch Job: Quartz</li>
+                        <li class="fragment" data-fragment-index="2">Jobs<ul>
+                        <li class="fragment" data-fragment-index="7">Job Group</li>
+                        <li class="fragment" data-fragment-index="8">Job UUID </li>
+                        <li class="fragment" data-fragment-index="9"><span class="fragment highlight-red"  data-fragment-index="10">Schedule</span></li>
+                        <li class="fragment" data-fragment-index="11"><span class="fragment highlight-green" data-fragment-index="12">Notification</span></li>
+                        <li class="fragment" data-fragment-index="13">Webhooks</li>
+                        <li class="fragment" data-fragment-index="14">Workflows</li></ul></li>
+                      <li class="fragment" data-fragment-index="3">Nodes</li>
+                      <li class="fragment" data-fragment-index="4">Commands</li>
+                      <li class="fragment" data-fragment-index="5">Executions</li>
+                      <li class="fragment" data-fragment-index="6">Activity</li></ul></p>
+                  </section>
+
+                </section>
+                <!-- Why -->
+                <section data-markdown>
+                  <script type="text/template">
+                    ## Why
+                    - Ansible Tower <!-- .element: class="fragment" -->
+                    - Open Source <!-- .element: class="fragment" -->
+                      - Transparent job definition (Exportable) <!-- .element: class="fragment" -->
+                        - Persistence <!-- .element: class="fragment" -->
+                        - Managable <!-- .element: class="fragment" -->
+                    - Cooperability <!-- .element: class="fragment" -->
+                      - Ansible Playbooks <!-- .element: class="fragment" -->
+                  </script>
+                </section>
+                <!-- How -->
+                <section data-markdown>
+                  <script type="text/template">
+                    ## How
+                    Example: [booking batch jobs](https://rundeck.dandythrust.com/project/Ansible/job/show/0723e1bb-1a30-487c-8bcb-b1212a3cb69e)
+                  </script>
+                </section>
+                <!-- End -->
+                <section data-markdown>
+                  <script type="text/template">
+                    ## Q &amp; A
+                  </script>
+                </section>
             </div>
         </div>
+        <script src="lib/js/head.min.js"></script>
         <script src="js/reveal.js"></script>
         <script>
-            Reveal.initialize();
+          Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            fragments: true,
+            transition: 'convex', // none/fade/slide/convex/concave/zoom
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+              { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'plugin/zoom-js/zoom.js', async: true },
+              { src: 'plugin/notes/notes.js', async: true }
+            ]
+          });
         </script>
     </body>
 </html>
